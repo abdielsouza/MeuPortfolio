@@ -103,7 +103,7 @@ export default function Portfolio() {
               {
                 id: 1,
                 name: "Code Zero",
-                description: "O website da minha marca que falhou, servindo como demonstração de design.",
+                description: "O website da minha marca que falhou, servindo como demonstração de design. Feito com NextJS.",
                 url: "https://code-zero.vercel.app"
               },
               {
@@ -117,6 +117,12 @@ export default function Portfolio() {
                 name: "The Robot Portfolio",
                 description: "Um modelo de web design para projetos de portfólio, feito por mim.",
                 url: "https://robot-portfolio-template.vercel.app"
+              },
+              {
+                id: 4,
+                name: "Atmos Dashboard",
+                description: "Um modelo de web design para dashboard, feito com NextJS.",
+                url: "https://atmos-dashboard.vercel.app"
               }
             ].map((project) => (
               <div key={project.id} className="bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-green-400/50 transition-shadow">
