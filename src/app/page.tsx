@@ -123,6 +123,12 @@ export default function Portfolio() {
                 name: "Atmos Dashboard",
                 description: "Um modelo de web design para dashboard, feito com NextJS.",
                 url: "https://atmos-dashboard.vercel.app"
+              },
+              {
+                id: 5,
+                name: "Stylizer Project (Prototype)",
+                description: "Um estilizador de websites.",
+                url: "https://stylizer.vercel.app"
               }
             ].map((project) => (
               <div key={project.id} className="bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-green-400/50 transition-shadow">
