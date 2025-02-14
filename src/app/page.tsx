@@ -39,7 +39,7 @@ export default function Portfolio() {
       <section className="py-20 text-center">
         <div className="container mx-auto px-4">
           <div className="mb-8 relative inline-block">
-            <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-green-400 glow">
+            <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-green-400 glow transition-all">
               <Image src="/20230823_104644.jpg" alt="Abdiel Souza" className="w-full h-full object-cover" width={200} height={200} />
             </div>
           </div>
