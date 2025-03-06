@@ -56,8 +56,8 @@ export default function Portfolio() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-center">Sobre Mim</h2>
           <p className="text-lg mb-4 text-center lg:w-[600px] mx-auto">
-            Sou um desenvolvedor web full-stack especializado em Next.js e Python. Estou em constante aprendizado
-            para criar soluções eficientes,aplicativos da web escalonáveis ​​e fáceis de usar que resolvem problemas do mundo real.
+            Sou um desenvolvedor web full-stack especializado em Next.js e Python, sabendo lidar bem com quaisquer outras tecnologias web. Estou em constante aprendizado
+            para criar soluções eficientes,aplicativos da web escaláveis ​​e fáceis de usar que resolvem problemas do mundo real. Também sou estudante de ciência de dados.
           </p>
           <p className="text-lg text-center lg:w-[600px] mx-auto">
             Com uma base sólida em tecnologias front-end e back-end, posso realizar projetos de forma eficiente e
