@@ -73,7 +73,7 @@ export default function Portfolio() {
           <div>
             <h2 className="text-3xl font-bold mb-8 text-center">Hard Skills</h2>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              {['Next.js', 'React', 'Python', 'JavaScript', 'HTML', 'CSS', 'Node.js', 'SQL', 'Svelte', 'PostgreSQL', 'Ciência de Dados', 'Excel', 'C/C++'].map((skill) => (
+              {['Next.js', 'React', 'Python', 'Javascript/Typescript', 'HTML', 'CSS', 'Node.js', 'SQL', 'Svelte', 'PostgreSQL', 'Django', 'Estatística e IA', 'Excel', 'C/C++', 'Elixir (com Phoenix Framework)', 'Clojure'].map((skill) => (
                 <div key={skill} className="bg-gray-800 p-4 rounded-lg text-center hover:bg-gray-700 transition-colors">
                   {skill}
                 </div>
@@ -84,7 +84,7 @@ export default function Portfolio() {
           <div>
             <h2 className="text-3xl font-bold mb-8 text-center">Soft Skills</h2>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              {['Proatividade', 'Boa Comunicação', 'Bom raciocínio lógico', 'Ajudador', 'Pontualidade'].map((skill) => (
+              {['Proatividade', 'Boa Comunicação', 'Bom raciocínio lógico', 'Ajudador', 'Pontualidade', 'Facilidade com cálculos'].map((skill) => (
                 <div key={skill} className="bg-gray-800 p-4 rounded-lg text-center hover:bg-gray-700 transition-colors">
                   {skill}
                 </div>
