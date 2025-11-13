@@ -25,7 +25,7 @@ export async function POST(request: Request) {
         await transporter.sendMail(mailOptions);
         return Response.json({ error: null, message: "email enviado com sucesso!" }, { status: 200 });
     }
-    catch (err: any) {
+    catch (err) {
         return Response.json({ error: err, message: "falha ao enviar email :(" }, { status: 500 });
     }
 }
