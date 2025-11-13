@@ -9,15 +9,18 @@ import Contact from "@/components/contact"
 import ScrollIndicator from "@/components/scroll-indicator"
 
 export default function Home() {
-  const [scrollY, setScrollY] = useState(0)
+  const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
-    if (typeof window !== "undefined") {
-    const handleScroll = () => setScrollY(window.scrollY)
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
+    if (!window || typeof window === "undefined") {
+      return;
     }
-  }, [])
+
+    const handleScroll = () => setScrollY(window.scrollY);
+    window.addEventListener("scroll", handleScroll);
+  
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <main className="min-h-screen bg-background text-foreground overflow-hidden">
